@@ -1,0 +1,59 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.share-link{
+  float: right;
+}
+#main-wrapper{
+  width: 877px;
+  margin: 0 auto;
+    padding: 0 15px;
+}
+
+.react-datepicker {
+  font-size: 0.8rem !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 0.8rem !important;
+}
+
+.react-datepicker__header {
+  padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+  top: 13px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 0.5rem !important;
+}
+
+#main-wrapper.formWrap .form-container {
+  padding: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 5px 6px 10px rgb(0 0 0 / 30%);
+  margin: 50px auto;
+}
+
+#main-wrapper.formWrap .form-group {
+  margin-bottom: 15px;
+}
+.google-map{
+  min-height: 500px;
+}
