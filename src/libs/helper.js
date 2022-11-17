@@ -1,12 +1,8 @@
 
 import { CITY_OPTIONS } from "./constant";
 import { fetchCities } from "../api";
+import { toast } from "react-toastify";
 
-const filterCity = (inputValue, cityList) => {
-  return cityList.filter((i) =>
-    i.label.toLowerCase().includes(inputValue.toLowerCase())
-  );
-};
 /**
  * @param  {object} coords1,coords2
  * link : https://stackoverflow.com/questions/14560999/using-the-haversine-formula-in-javascript
@@ -78,6 +74,7 @@ export const promiseOptions = (inputValue) => {
       }, 1000);
     }).catch(error => {
       console.error(error);
+      toast.error("No city found!");
       throw error;
     });
   })
