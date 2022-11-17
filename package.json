@@ -1,7 +1,7 @@
 {
-	"name": "movie-catalogue",
+	"name": "travel-plan",
 	"version": "1.0.0",
-	"description": "Movie Search",
+	"description": "Travel Plan",
 	"main": "index.js",
 	"keywords": [],
 	"author": "",
